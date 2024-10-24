@@ -1,5 +1,5 @@
 def count_combinations(pieces, target):
-    result = set()
+    result = {} #this is line is updated.
     pieces.sort()
     
     # Stack to keep track of the state: (start index, current combination, current sum)
