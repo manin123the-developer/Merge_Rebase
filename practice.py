@@ -3,8 +3,8 @@ def count_combinations(pieces,target):
     def find_combination(start,target,c_omb):
         if target==0:
            result.append(tuple(c_omb))
-           return
-        if target<0:
+           return 
+        if target<1:
             return
         for i in range(start,len(pieces)):
             c_omb.append(pieces[i])
