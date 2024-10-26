@@ -1,5 +1,5 @@
 def count_combinations(pieces,target):
-    result=[] # this is also a list.
+    result= list() #This is a list-constructor.
     def find_combination(start,target,c_omb):
         if target==0:
            result.append(tuple(c_omb))
